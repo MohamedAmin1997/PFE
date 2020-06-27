@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#20B0F3</color>
+    <color name="colorAccent">#145CEB</color>
+    <color name="home">#1194AA</color>
+    <color name="profile">#708FCF</color>
+    <color name="notification">#9FBCF8</color>
+</resources>

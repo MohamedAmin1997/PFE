@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/changer_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/ancien_mdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ancien Mot de Passe " />
+
+        <EditText
+            android:id="@+id/nouveau_mdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nouvelle Mot de Passe" />
+
+        <EditText
+            android:id="@+id/verifier_mdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirmer Mot de Passe " />
+
+        <Button
+            android:id="@+id/changer_mdp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/buttons"
+            android:text="Changer Mot de Passe"
+            android:textColor="#fff"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+</LinearLayout>

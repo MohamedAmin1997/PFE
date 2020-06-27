@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_conseil">
+
+
+
+    <fragment
+        android:id="@+id/nav_conseil"
+        android:name="com.example.monpfe.ui.conseil.ConseilFragment"
+        android:label="@string/menu_consel"
+        tools:layout="@layout/fragment_conseil" />
+
+    <fragment
+        android:id="@+id/nav_deplacement"
+        android:name="com.example.monpfe.ui.Deplacement.DeplacementFragment"
+        android:label="@string/menu_deplacement"
+        tools:layout="@layout/fragment_deplacement" />
+
+
+    <fragment
+        android:id="@+id/nav_urgence"
+        android:name="com.example.monpfe.ui.Urgence.UrgenceFragment"
+        android:label="@string/menu_urgence"
+        tools:layout="@layout/fragment_urgence" />
+</navigation>

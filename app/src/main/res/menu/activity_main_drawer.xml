@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_conseil"
+            android:icon="@drawable/ic_conseil"
+            android:title="@string/menu_consel" />
+        <item
+            android:id="@+id/nav_urgence"
+            android:icon="@drawable/ic_emergency"
+            android:title="@string/menu_urgence" />
+        <item
+            android:id="@+id/nav_deplacement"
+            android:icon="@drawable/ic_voyage"
+            android:title="@string/menu_deplacement" />
+
+    </group>
+
+
+</menu>
